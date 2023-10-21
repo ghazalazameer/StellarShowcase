@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar-Showcase</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p class="para">Computer Science Student <i class="fas fa-code"></i></p>
+            <h1>Hey! I am <span>G</span><span>h</span><span>a</span><span>z</span><span>a</span><span>l</span><span>a</span> Zameer<br>  from AMU</h1>
+        </div>
+    </div>
+    </div>
+    <!-- --------------------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Dedicated enthusiast with good academic and counseling skills. Ability to be a team player and resolve
+                        problems and conflicts professionally. Skilled at communicating information in a simple and entertaining
+                        manner. Looking forward to contributing my knowledge and skills in an organization that offers genuine
+                        opportunities for career progression.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>                           
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages:</span><br>Java / C++ / C / SQL</li>
+                                <li><span>Web Development:</span><br>HTML / CSS</li>
+                                <li><span>Tools:</span><br>Visual Studio Code / GitHub / Google
+                                    Colab / Netbeans / Dev C++ / Oracle / MS Office</li>
+                                <li><span>Familier:</span><br>Javascipt / Artificial Intelligence</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>ALIGARH MUSLIM UNIVERSITY</span><br>MCA <span style="color:rgb(237, 237, 237);">(2022-Ongoing)</span>
+                                </li>
+                                <li><span>ALIGARH MUSLIM UNIVERSITY</span><br>B.Sc. (H) in Mathematics <span style="color:white;">(2019-2022)</span><br>CGPA: 8.314/10
+                                </li>
+                                <li><span>AL-BARKAAT PUBLIC SCHOOL</span><br>Intermediate <span style="color:white;">(2017-2018)</span><br>71%
+                                </li>
+                                <li><span>AL-BARKAAT PUBLIC SCHOOL</span><br>High School <span style="color:white;">(2015-2016)</span><br>CGPA: 10/10
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>INTERN  <span style="color:white;">(16 Mar 2023 – 27 May 2023)</span></span><br>Computer Science Society<br>Department of Computer Science, AMU
+
+                                </li>
+                                <li><span>EVENT LEAD <span style="color:white;">(May 2023 – Current)</span></span><br>Marine Technology Society Autonomous
+                                    Underwater Vehicles Club<br>ZHCET, AMU
+
+                                </li>
+                                <li><span>MANAGEMENT TEAM MEMBER <span style="color:white;">(Aug 2022 – May 2023)</span></span><br>Marine Technology Society
+                                    Autonomous Underwater Vehicles Club<br>ZHCET, AMU
+                                </li>
+                                <li><span>COMPERE AND VOLUNTEER <span style="color:white;">(11 Feb 2023 – 12 Feb 2023)</span></span><br>International Conference on
+                                    Emerging Computational Intelligence<br>Department of Computer Science, AMU
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------projects--------------------------------- -->
+    <div id="projects">
+       <div class="container">
+        <h1 class="sub-titles">My Projects</h1>
+        <div class="project-list">
+            <div>
+                <i class="fas fa-magic"></i>  
+                              <h2>STELLAR SHOWCASE: Personal Portfolio</h2>          
+                <p>
+                    <ul>
+                        <li>The website serves as a comprehensive platform.</li>
+                        <li>Technical Skills Demonstrated: HTML5, CSS3, Javascript, Responsive navigation design.</li>
+                    </ul>
+                </p>
+                    <a href="https://github.com/ghazalazameer/Stellar-Showcase">Uncover Insights</a>
+            </div>
+            <div>
+                <i class="fas fa-calculator"></i>
+                <h2>CALC-IT-OUT: Calculator</h2>
+                <p>
+                    <ul>
+                        <li>Technical Skills Demonstrated: HTML5, CSS3, and JavaScript.</li>
+                        <li> Key features: Basic Arithmetic Operations.</li>
+                    </ul>
+                </p>
+                    <a href="https://github.com/ghazalazameer/Calc-It-Out">Uncover Insights</a>
+            </div>
+            <div>
+                <i class="fas fa-glass-whiskey"></i>                                    <h2>PEPSI SPARK AND SAVOR STARBUCKS: Landing Pages
+                </h2>
+                <p>
+                    <ul>
+                        <li>Technical Skills Demonstrated: HTML5 to structure the content, CSS3
+                            to style the page with visual finesse, and JavaScript to add interactivity</li>
+                    </ul>
+                </p>
+                    <a href="https://github.com/ghazalazameer/Pepsi-Spark">Uncover Insights(Pepsi-Spark)</a><a href="https://github.com/ghazalazameer/Savor-Starbucks">Uncover Insights(Savor-Starbucks)</a>
+            </div>
+            <div>
+                <i class="fas fa-clock"></i>
+                <h2>TIME CRAFT: Digital Clock
+                </h2>
+                <p>
+                    <ul>
+                        <li>Sleek and precise digital clock with a customizable display.</li>
+                        <li>Technical Skills Demonstrated: Leveraged HTML5 to structure the content, CSS3 to apply visually appealing styles, and JavaScript to enhance interactivity and user experience.</li>
+                    </ul>
+                    </p>
+                    <a href="https://github.com/ghazalazameer/Clock">Uncover Insights</a>
+            </div>
+        </div>
+       </div>
+    </div>
+    <!-- --------------------------contact--------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>zameerghazala20@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91-80777XXXXX</p>
+                    <div class="social-icons">
+                        <a title="GitHub" href="https://github.com/ghazalazameer"><i class="fab fa-github"></i>
+                        </a>
+                        <a title="LinkedIn" href="https://www.linkedin.com/in/ghazala-zameer-055bb2246"><i class="fab fa-linkedin"></i>
+                        </a>
+                        <a title="GeeksforGeeks" href="https://auth.geeksforgeeks.org/user/ghazala26/practice/"><i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                    <a href="images/MY-RESUME.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://script.google.com/macros/s/AKfycbxbHDLrYEd7OqtN2v0rWjTbCn21iaX3GqY_PymQLVtvLdlFBrsUUCs2ngbTp6nUvLZE9A/exec" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <br>
+                        <button type="submit" id="sub" class="btn btn2">Submit</button>             
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <a class="gototop" href="#"><i class="fas fa-arrow-up"></i></a>
+        <div class="copyright">
+            <p>Copyright  &copy; <span>Ghazala Zameer</span> 2023. All rights reserved. <i class="fas fa-briefcase"></i>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
