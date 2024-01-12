@@ -200,7 +200,6 @@ nav ul li a:hover::after{
     transform: translateY(-10px);
 }
 .project-button {
-    display: flex;
     align-items: center;
     justify-content: center;
     width: 35px; /* size as needed */
@@ -217,6 +216,7 @@ nav ul li a:hover::after{
     margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
+    display: inline-block;
 }
 
 .project-button:before {
