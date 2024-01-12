@@ -15,7 +15,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url('./background.jpg');
+    background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -75,7 +75,7 @@ nav ul li a:hover::after{
 /* -------------------------about---------------------------- */
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: white;
 }
 .row{
     display: flex;
@@ -135,19 +135,12 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-.tab-titles:hover p {
-    filter: blur(5px);
-}
-  
-.tab-titles p:hover {
-    filter: blur(0px);
-}
 .tab-links:hover::after {
     width: 100%;
 }
 .tab-links:hover{
     color:white; /* Change color on hover */
-    transform: scale(1.2); /* Zoom effect on hover */
+
 }
 .tab-titles:hover .tab-links::after {
     left: 50%;
@@ -159,7 +152,6 @@ nav ul li a:hover::after{
 }
 .tab-titles .tab-links:hover {
     color: white; /* Change color on hover */
-    transform: scale(1.2); /* Zoom effect on hover */
 }
 .tab-contents{
     display: none;
@@ -172,23 +164,23 @@ nav ul li a:hover::after{
 .project-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 30px;
     margin-top: 50px;
 }
 .project-list div{
     background: #262626;
-    padding: 40px;
+    padding: 16px;
     font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
+    font-weight: 155;
+    border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
 }
 .project-list div i{
-    font-size: 35px;
-    margin-bottom: 30px;
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 .project-list div h2{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -207,6 +199,38 @@ nav ul li a:hover::after{
     background: rgb(35, 169, 222);
     transform: translateY(-10px);
 }
+.project-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px; /* size as needed */
+    height: 35px; /* size as needed */
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0); /* background color */
+    color: #ffffff; /* text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* shadow properties */
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-button:before {
+    content: '\2192'; /* Unicode arrow right character */
+    font-size: 24px;
+    margin-right: 3px; /* spacing between arrow and text */
+    font-weight: bold; /* the font weight */
+    text-shadow: 1px 1px 1px #000; /* the shadow for darkness and boldness */ 
+}
+
+.project-button:hover {
+    background-color:#262626; /* Adjust the background color on hover */
+}
+
 /* ----------------------------------contact---------------------------------- */
 .contact-left{
     flex-basis: 35%; 
@@ -306,7 +330,7 @@ nav .fas{
 }
 @media only screen and (max-width : 600px) {
     #header{
-        background-image: url('./phone-background.jpg');
+        background-image: url(images/phone-background.jpg);
     }
     .header-text{
         margin-top: 100%;
